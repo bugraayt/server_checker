@@ -17,7 +17,7 @@ It’s interactive, logs everything to a file so you can check later.
 
 ## Usage
 
-Make it executable:
+Make it executable and run the script:
 
 ```bash
 chmod +x server_checker.sh
