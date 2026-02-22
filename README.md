@@ -1,4 +1,4 @@
-# Server Status Monitor
+# Server Status Checker
 
 A simple Bash script to check if servers or websites are up or down.  
 It’s interactive, logs everything to a file so you can check later.  
