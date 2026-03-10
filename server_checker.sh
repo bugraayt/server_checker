@@ -5,7 +5,7 @@ while true;
 do
 	read -e -p "Enter servers hostname/IP or a websites seperated by space: " servers
 	echo "You typed: $servers"
-	for server in "$servers";
+	for server in $servers;
 	do
 		echo "Checking $server"
 		if ping -q -c 1 -w 3 $server > /dev/null; then
